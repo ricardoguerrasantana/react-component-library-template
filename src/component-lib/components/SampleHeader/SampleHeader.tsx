@@ -1,20 +1,20 @@
 import React from 'react';
 
-import { Button } from './Button';
-import './header.css';
+import { SampleButton } from 'component-lib';
+import './sample-header.css';
 
 type User = {
   name: string;
 };
 
-interface HeaderProps {
+interface SampleHeaderProps {
   user?: User;
   onLogin: () => void;
   onLogout: () => void;
   onCreateAccount: () => void;
 }
 
-export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => (
+export const SampleHeader = ({ user, onLogin, onLogout, onCreateAccount }: SampleHeaderProps) => (
   <header>
     <div className="wrapper">
       <div>
@@ -42,12 +42,12 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps
             <span className="welcome">
               Welcome, <b>{user.name}</b>!
             </span>
-            <Button size="small" onClick={onLogout} label="Log out" />
+            <SampleButton size="small" onClick={onLogout} label="Log out" />
           </>
         ) : (
           <>
-            <Button size="small" onClick={onLogin} label="Log in" />
-            <Button primary size="small" onClick={onCreateAccount} label="Sign up" />
+            <SampleButton size="small" onClick={onLogin} label="Log in" />
+            <SampleButton primary size="small" onClick={onCreateAccount} label="Sign up" />
           </>
         )}
       </div>
