@@ -1,0 +1,25 @@
+{
+  "name": "react-component-library-sample",
+  "version": "0.0.1",
+  "description": "Sample of a react component library created with react-component-library-template available at https://github.com/ricardoguerrasantana/react-component-library-template.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardoguerrasantana/react-component-library-template.git"
+  },
+  "keywords": [
+    "react",
+    "component-library",
+    "typescript",
+    "storybook"
+  ],
+  "author": "Ricardo Guerra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricardoguerrasantana/react-component-library-template/issues"
+  },
+  "homepage": "https://github.com/ricardoguerrasantana/react-component-library-template#readme"
+}
