@@ -18,6 +18,14 @@
   ],
   "author": "Ricardo Guerra",
   "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.3",
+    "rollup": "^2.75.6",
+    "rollup-plugin-dts": "^4.2.2",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
   "bugs": {
     "url": "https://github.com/ricardoguerrasantana/react-component-library-template/issues"
   },
