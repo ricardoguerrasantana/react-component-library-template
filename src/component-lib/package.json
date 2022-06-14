@@ -1,5 +1,5 @@
 {
-  "name": "react-component-library-sample",
+  "name": "@ricardoguerrasantana/react-component-library-sample",
   "version": "0.0.1",
   "description": "Sample of a react component library created with react-component-library-template available at https://github.com/ricardoguerrasantana/react-component-library-template.git",
   "main": "dist/cjs/index.js",
@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/ricardoguerrasantana/react-component-library-template/issues"
   },
-  "homepage": "https://github.com/ricardoguerrasantana/react-component-library-template#readme"
+  "homepage": "https://github.com/ricardoguerrasantana/react-component-library-template#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ricardoguerrasantana/react-component-library-sample"
+  }
 }
