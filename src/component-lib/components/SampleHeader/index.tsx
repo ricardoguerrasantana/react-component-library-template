@@ -1,1 +1,1 @@
-export * from "./SampleHeader"
+export * from './SampleHeader'
